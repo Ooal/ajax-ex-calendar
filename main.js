@@ -30,6 +30,7 @@ function stampaMese(){
 
   $('#btn').click(function(){
   var mese = parseInt($('#mese').val());
+  console.log(mese);
   var currentMonth = moment('2018-'+ (mese+1) , 'YYYY-M');
   var nDayForMount = currentMonth.daysInMonth();
   var template = $('#template').html();

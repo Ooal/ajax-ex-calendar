@@ -4,6 +4,21 @@
   font-family: 'Lato', sans-serif;
   box-sizing: border-box;
 }
+ul li {
+  text-align: center;
+  font-weight: bold;
+  display: inline-block;
+  background-color: #ededed;
+  border: solid 1px black;
+  width: 100px;
+  height: 100px;
+}
+ul {
+
+}
+.container{
+  margin:0 15%;
+}
 .festa{
   color: red;
 }
