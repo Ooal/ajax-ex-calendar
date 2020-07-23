@@ -5,13 +5,14 @@
   box-sizing: border-box;
 }
 ul li {
+  font-size: 20px;
   text-align: center;
   font-weight: bold;
   display: inline-block;
   background-color: #ededed;
   border: solid 1px black;
-  width: 100px;
-  height: 100px;
+  width: 300px;
+  height: 200px;
 }
 ul {
 
@@ -20,5 +21,22 @@ ul {
   margin:0 15%;
 }
 .festa{
-  color: red;
+  background: #9ffca8;
+}
+h1 {
+  text-align: center;
+  font-size: 60px;
+}
+.mese {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin: 0 40%;
+  margin-top: 30px;
+}
+.mese h2 {
+  font-size: 40px;
+}
+.mese i {
+  font-size: 70px;
 }
