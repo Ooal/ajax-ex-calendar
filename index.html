@@ -2,30 +2,53 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Live coding</title>
+    <title>Calendar</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link rel="stylesheet" href="master.css">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.min.js"></script>
-    <script id="template" type="text/x-handlebars-template">
-      <li data-datecomplete='{{datecomplete}}'>{{day}}</li>
-    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+    <script id="template" type="text/x-handlebars-template">
+      <h2 data-datecomplete='{{datecomplete}}'>{{day}}</h2>
+    </script>
     <script src="main.js" charset="utf-8"></script>
   </head>
   <body>
     <h1>Calendario 2018<h1>
       <div class="mese">
         <i class="fas fa-angle-left"></i>
-        <h2>Scegli il mese</h2>
+
+        <h2 class="active">Gennaio</h2>
+        <h2 class="none"> Febbraio</h2>
+        <h2 class="none"> Marzo</h2>
+        <h2 class="none"> Aprile</h2>
+        <h2 class="none"> Maggio</h2>
+        <h2 class="none"> Giugno</h2>
+        <h2 class="none"> Luglio</h2>
+        <h2 class="none"> Agosto</h2>
+        <h2 class="none"> Settembre</h2>
+        <h2 class="none"> Ottobre</h2>
+        <h2 class="none"> Novembre</h2>
+        <h2 class="none"> Dicembre</h2>
+
         <i class="fas fa-angle-right"></i>
       </div>
     <div class="container">
-      <ul>
-
-      </ul>
+      <div id="1" class="active"></div>
+      <div id="2" class="none"></div>
+      <div id="3" class="none"></div>
+      <div id="4" class="none"></div>
+      <div id="5" class="none"></div>
+      <div id="6" class="none"></div>
+      <div id="7" class="none"></div>
+      <div id="8" class="none"></div>
+      <div id="9" class="none"></div>
+      <div id="10" class="none"></div>
+      <div id="11" class="none"></div>
+      <div id="12" class="none"></div>
     </div>
 
   </body>
